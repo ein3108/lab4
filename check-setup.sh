@@ -13,7 +13,7 @@ if [ "$system" == "Linux precise32" ] || [ "$system" == "Linux vagrant-ubuntu-tr
 then
   sys_vagrant="1"  
   echo "Running on Vagrant guest"
-elif [ $short_system == "Darwin"  ]
+elif [ $short_system == "Darwin" ]
 then
   sys_osx="1"
   echo "Running on Mac OSX"
